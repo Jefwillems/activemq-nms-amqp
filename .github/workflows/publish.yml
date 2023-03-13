@@ -2,7 +2,7 @@ name: test and publish
 on:
   push:
     branches:
-      - main # Default release branch, may also be named 'master' or 'develop'
+      - custom # Default release branch, may also be named 'master' or 'develop'
 jobs:
   publish:
     name: build, pack & publish
